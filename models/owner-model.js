@@ -2,10 +2,10 @@ const mongoose = require('mongoose');
 
 
 
-const userSchema = mongoose.Schema({
+const ownerSchema = mongoose.Schema({
     fullname: {
         type: String,
-        minLength: 3,
+        min_ength: 3,
         trim: true,
     },
     email: String,
